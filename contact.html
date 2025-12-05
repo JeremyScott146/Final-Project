@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aspen Meadows Resort</title>
+    <meta name="author" content="Jeremy Scott">
+    <meta name="description" content="Aspen Meadows Resort - Need to get in touch? Contact us today!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+    <!-- header -->
+    <header class="header-container">
+        <div class="logo-left"><h1>Aspen Meadows Resort</h1></div>
+        <nav class="nav-right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- hero -->
+    <section class="hero">
+        <img src="images/swiss-valley.jpg" alt="A majestic view of a Swiss valley with cascading mountains">
+    </section>
+
+    <main>
+        <!-- contact section -->
+        <section class="contact-section">
+            <div class="contact-body">
+        
+                <!-- left column -->
+                <div class="contact-left">
+        
+                    <div class="contact-header">
+                        <h2>Contact Us</h2>
+                        <p>
+                            Please reach out to us with any questions. <br>
+                            We're here to help plan your perfect vacation!<br>
+                            Required fields marked with *
+                        </p>
+                    </div>
+        
+                    <img src="images/swiss-peak.jpg" alt="Gorgeous view of the sunset over the Swiss Alps Peak">
+                </div>
+        
+                <!-- right column -->
+                <div class="contact-right">
+                    <form method="post" action="https://wp.zybooks.com/form-viewer.php">
+        
+                        <label for="full-name">Full Name *</label>
+                        <input type="text" id="full-name" name="full-name" required>
+        
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+        
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+        
+                        <fieldset>
+                            <legend>Preferred Contact Method *</legend>
+        
+                            <label class="radio-inline">
+                                <input type="radio" name="contact-method" value="email" required>
+                                Email
+                            </label>
+        
+                            <label class="radio-inline">
+                                <input type="radio" name="contact-method" value="phone" required>
+                                Phone
+                            </label>
+                        </fieldset>
+        
+                        <label for="comments">Comments *</label>
+                        <textarea id="comments" name="comments" required></textarea>
+        
+                        <button type="submit" class="submit-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- back to top (btt) -->
+        <a href="#top" id="back-to-top">Back to Top ↑</a>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer-large">
+        <p>Coypright © 2025 - Aspen Meadows Resort</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+
+</body>
+</html>
